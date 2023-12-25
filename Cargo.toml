@@ -1,0 +1,21 @@
+[package]
+name = "yatb-proxy"
+version = "0.0.0"
+authors = [ "you",]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/main.rs"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+
+[dependencies.multiversx-sc]
+version = "0.45.2"
+
+[dev-dependencies.multiversx-sc-scenario]
+version = "0.45.2"
+
+[dependencies]
+pair = { git = "https://github.com/multiversx/mx-exchange-sc.git" }
